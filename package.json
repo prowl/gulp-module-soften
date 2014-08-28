@@ -1,0 +1,29 @@
+{
+  "name": "prowl-gulp-module-soften",
+  "version": "0.0.1",
+  "description": "Soften library for gulp-module",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/prowl/gulp-module/soften.git"
+  },
+  "keywords": [
+    "Soften",
+    "Gulp",
+    "Prowl"
+  ],
+  "author": "Joshwa Fugett <jfugett27@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "i": "^0.3.2",
+    "npm": "^1.4.24",
+    "prowl-gulp-module": "0.0.2"
+  },
+  "dependencies": {
+    "gulp-soften": "0.0.1"
+  }
+}
