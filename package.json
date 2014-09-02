@@ -1,6 +1,6 @@
 {
   "name": "gulp-module-soften",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Soften library for gulp-module",
   "main": "lib/index.js",
   "scripts": {

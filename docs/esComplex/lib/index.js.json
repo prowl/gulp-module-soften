@@ -1,0 +1,160 @@
+{
+  "aggregate": {
+    "sloc": {
+      "logical": 11,
+      "physical": 31
+    },
+    "cyclomatic": 1,
+    "halstead": {
+      "operators": {
+        "distinct": 5,
+        "total": 26,
+        "identifiers": [
+          "var",
+          "=",
+          "()",
+          "function",
+          "."
+        ]
+      },
+      "operands": {
+        "distinct": 21,
+        "total": 36,
+        "identifiers": [
+          "\"use strict\"",
+          "soften",
+          "\"gulp-soften\"",
+          "require",
+          "gulp",
+          null,
+          "config",
+          "softenSetup",
+          "gulpRef",
+          "conf",
+          "\"soften\"",
+          0,
+          "softenTask",
+          "task",
+          "root",
+          "dest",
+          2,
+          "src",
+          "pipe",
+          "module",
+          "exports"
+        ]
+      },
+      "length": 62,
+      "vocabulary": 26,
+      "difficulty": 4.285714285714286,
+      "volume": 291.42726252474773,
+      "effort": 1248.973982248919,
+      "bugs": 0.09714242084158257,
+      "time": 69.38744345827327
+    },
+    "params": 2,
+    "line": 1,
+    "cyclomaticDensity": 9.090909090909092
+  },
+  "functions": [
+    {
+      "name": "softenSetup",
+      "sloc": {
+        "logical": 3,
+        "physical": 6
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 3,
+          "total": 4,
+          "identifiers": [
+            "=",
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 8,
+          "total": 11,
+          "identifiers": [
+            "gulpRef",
+            "conf",
+            "gulp",
+            "config",
+            "\"soften\"",
+            0,
+            "softenTask",
+            "task"
+          ]
+        },
+        "length": 15,
+        "vocabulary": 11,
+        "difficulty": 2.0625,
+        "volume": 51.89147427955947,
+        "effort": 107.0261657015914,
+        "bugs": 0.01729715809318649,
+        "time": 5.945898094532855
+      },
+      "params": 2,
+      "line": 15,
+      "cyclomaticDensity": 33.33333333333333
+    },
+    {
+      "name": "softenTask",
+      "sloc": {
+        "logical": 1,
+        "physical": 5
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 2,
+          "total": 11,
+          "identifiers": [
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 8,
+          "total": 12,
+          "identifiers": [
+            "config",
+            "root",
+            "gulp",
+            "dest",
+            2,
+            "soften",
+            "src",
+            "pipe"
+          ]
+        },
+        "length": 23,
+        "vocabulary": 10,
+        "difficulty": 1.5,
+        "volume": 76.40434618240934,
+        "effort": 114.60651927361401,
+        "bugs": 0.02546811539413645,
+        "time": 6.367028848534112
+      },
+      "params": 0,
+      "line": 25,
+      "cyclomaticDensity": 100
+    }
+  ],
+  "dependencies": [
+    {
+      "line": 3,
+      "path": "gulp-soften",
+      "type": "CommonJS"
+    }
+  ],
+  "maintainability": 84.01759398233385,
+  "params": 1,
+  "meta": {
+    "analysis": "gulp-escomplex",
+    "analysisVersion": "1.0.0",
+    "fileName": "lib/index.js"
+  }
+}
