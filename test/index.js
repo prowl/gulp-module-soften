@@ -12,7 +12,7 @@ gulpMock.task = function(name, deps, func) {
 };
 
 var configMock = {
-  soften: ['**/*.js', '**/*.json', '!./node_modules/**', '!./docs/**'],
+  soften: ['**/*.js', '**/*.json', '!./node_modules/**', '!./docs/**']
 };
 
 soften(gulpMock, configMock);
